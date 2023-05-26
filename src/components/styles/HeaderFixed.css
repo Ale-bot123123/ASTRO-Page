@@ -1,0 +1,27 @@
+.HeaderFixed{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height: 100px;
+    padding: 0 50px;
+    background-color: rgb(17, 17, 17);
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.HeaderSvgLogo{
+    fill: white;
+    width: 45px;
+}
+
+.HeaderSelectors{
+    display: flex;
+    align-items: end;
+}
+
+.HeaderSelector{
+    padding: 15px;
+    text-align: center;
+}

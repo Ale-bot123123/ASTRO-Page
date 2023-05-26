@@ -1,0 +1,40 @@
+.SocialContainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    left: 50px;
+    bottom: 0;
+}
+
+.SocialContainer::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.SocialLinks{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.SocialIconYT {
+    width: 25px;
+    height: 25px;
+}
+
+.SocialIconIG {
+    width: 27px;
+    height: 27px;
+}
+
+.SocialIconGH {
+    width: 25px;
+    height: 25px;
+}

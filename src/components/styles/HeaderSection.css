@@ -1,0 +1,28 @@
+.HeaderSection{
+    display: flex;
+    align-items: baseline;
+    justify-content:center;
+    flex-direction: column;
+    text-align: start;
+    height: 100vh;
+}
+
+.HeaderSectionTitles{
+    text-align: start;
+    width: 70vw;
+}
+
+.HeaderSvgTitle{
+    align-items: baseline;
+    fill: white;
+    width: 450px;
+    margin: 2vw 0;
+    min-width: 40px;
+}
+
+.ImgHoja {
+    width: 700px;
+    position: absolute;
+    right:-150px;
+    top: 100px;
+}
