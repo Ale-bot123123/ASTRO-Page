@@ -5,6 +5,10 @@
     flex-direction: column;
     text-align: start;
     height: 100vh;
+    width: auto;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .HeaderSectionTitles{
@@ -12,17 +16,24 @@
     width: 70vw;
 }
 
+.HeaderPreTitle{
+    margin: 0;
+    font-size: 30px;
+}
+
 .HeaderSvgTitle{
     align-items: baseline;
     fill: white;
-    width: 450px;
-    margin: 2vw 0;
+    width: 550px;
+    margin: 0 0;
     min-width: 40px;
 }
 
-.ImgHoja {
-    width: 700px;
+.ImgCansat {
+    width: 25vw;
+    min-width: 400px;
     position: absolute;
-    right:-150px;
-    top: 100px;
+    right:0px;
+    top: 120px;
+    z-index: -999;
 }

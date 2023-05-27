@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'd-din-din-bold',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   background-color: rgb(17, 17, 17);
@@ -11,10 +11,17 @@ body {
   scroll-behavior:smooth;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  padding:0 150px;
+  box-sizing: border-box;
+}
+
 section{
     width: 100%;
-    padding: 0 150px;
-    box-sizing: border-box;
 }
 
 ul, li{
@@ -29,6 +36,7 @@ code {
 }
 
 html {
+  height: 100%;
   scroll-behavior: smooth;
 }
 
@@ -39,4 +47,13 @@ h1, h2{
 
 p{
   font-size: 20px;
+  margin: 20px 0;
+}
+
+a:link { 
+  text-decoration:none;
+} 
+a:visited { 
+  text-decoration:none;
+  color: white;
 }

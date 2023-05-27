@@ -1,0 +1,35 @@
+.CompetenciaSection {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1400px;
+}
+
+.CompetenciaInfoContainer {
+    width: 700px;
+}
+
+.CompetenciaInfo {
+    font-size:20px;
+}
+
+.CompetenciaTitle{
+    display: flex;
+    align-items: center;
+    font-size:30px;
+}
+
+.CompetenciaTitle::after{
+    content: "";
+    display: block;
+    width: 45vw;
+    height: 1px;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.462);
+}
+
+.CansatArg{
+    width: 200px;
+    margin: 0 10vw;
+}
