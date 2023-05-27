@@ -1,13 +1,32 @@
 .CompetenciaSection {
+    position: relative;
     display: flex;
     align-items: center;
     margin: auto;
     margin-top: 100px;
-    max-width: 1400px;
+}
+
+.CompetenciaAgujeroImg{
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    height:300px;
+    background-image: url("../../assets/AgujeroNegro.jpg");
+    background-position: center;
+    background-position-y: -300px;
 }
 
 .CompetenciaInfoContainer {
-    width: 700px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 5%;
+    margin-left: 50px;
+}
+.CompetenciaTextContainer {
+    width: auto;
+    max-width: 800px;
 }
 
 .CompetenciaInfo {
@@ -15,21 +34,12 @@
 }
 
 .CompetenciaTitle{
-    display: flex;
-    align-items: center;
-    font-size:30px;
-}
-
-.CompetenciaTitle::after{
-    content: "";
-    display: block;
-    width: 45vw;
-    height: 1px;
-    margin: 0 10px;
-    background-color: rgba(255, 255, 255, 0.462);
+    font-size:100px;
+    writing-mode: vertical-lr;
 }
 
 .CansatArg{
     width: 200px;
-    margin: 0 10vw;
+    margin-left: 9vw;
 }
+

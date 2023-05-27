@@ -5,15 +5,10 @@
     flex-direction: column;
     text-align: start;
     height: 100vh;
-    width: auto;
-    max-width: 1000px;
+    width: 70vw;
+    max-width: 1200px;
     margin: auto;
     box-sizing: border-box;
-}
-
-.HeaderSectionTitles{
-    text-align: start;
-    width: 70vw;
 }
 
 .HeaderPreTitle{
