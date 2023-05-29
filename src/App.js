@@ -3,6 +3,7 @@ import HeaderFixed from "./components/HeaderFixed.js"
 import HeaderSection from "./components/HeaderSection.js"
 import SocialLinks from "./components/SocialLinks.js"
 import CompetenciaSection from "./components/CompetenciaSection.js"
+import EquipoSection from "./components/EquipoSection.js"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <HeaderSection/>
         <CompetenciaSection/>
+        <EquipoSection/>
       </main>
       <SocialLinks/>
     </div>

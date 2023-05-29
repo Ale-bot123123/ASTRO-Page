@@ -1,0 +1,44 @@
+.IntegranteContainer{
+    display: flex;
+    align-items: center;
+    width: min-content;
+}
+
+.IntegranteInfoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 28, 28);
+}
+
+.IntegranteInfo{
+    display: flex;
+    align-items:first center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(28, 28, 28);
+}
+
+.IntegranteName{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    font-size:2vw;
+}
+
+.IntegranteList{
+    
+}
+
+.Tarea{
+    margin:0;
+}
+
+.IntegranteImg{
+    background-color: black;
+    width: 20vw;
+    height: 20vw;
+}

@@ -1,0 +1,30 @@
+.EquipoSection{
+    margin-top:17%;
+}
+
+.EquipoImgContainer{
+    width: 100%;
+    display: flex;
+}
+
+.EquipoTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    writing-mode: vertical-lr;
+    width: fit-content;
+}   
+
+.EquipoImg{
+    width:90%;
+    box-shadow: 0.5vw 0.5vw 1vw black;
+}
+
+.EquipoIntegrantesTitle {
+    text-align: center;
+    font-size:80px;
+}
+
+.EquipoIntegrantesSection {
+    display:block;
+}
