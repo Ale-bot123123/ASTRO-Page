@@ -12,14 +12,16 @@ function EquipoSection() {
             </div>
             <section className="EquipoIntegrantesSection">
                 <h3 className="EquipoIntegrantesTitle">INTEGRANTES</h3>
-                <div>
+                <div className="EquipoIntegrantesProfesor">
+                    <Integrante nombre="Julian Morete" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
+                </div>
+                <div className="EquipoIntegrantesAlumnos">
+                    <Integrante nombre="Alejo Milani" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
                     <Integrante nombre="Santino Andrioletti" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
                 </div>
-                <div>
-                    <Integrante nombre="Santino Andrioletti" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
-                    <Integrante nombre="Santino Andrioletti" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
-                    <Integrante nombre="Santino Andrioletti" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
-                    <Integrante nombre="Santino Andrioletti" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
+                <div className="EquipoIntegrantesAlumnos">
+                    <Integrante nombre="Rodrigo Aranda" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
+                    <Integrante nombre="Agustin Phoyu" tareas={["Lider del Gurpo","Programador"]} imgUrl={Alejo}/>
                 </div>
             </section>
         </section>

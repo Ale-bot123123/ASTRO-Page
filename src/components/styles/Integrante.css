@@ -1,14 +1,11 @@
-.IntegranteContainer{
-    display: flex;
-    align-items: center;
-    width: min-content;
-}
-
 .IntegranteInfoContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(28, 28, 28);
+    margin: 20px;
+    width: 35vw;
+    box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .IntegranteInfo{
@@ -16,8 +13,8 @@
     align-items:first center;
     justify-content: space-around;
     flex-direction: column;
-    width: 20vw;
-    height: 20vw;
+    width: 17.5vw;
+    height: 17.5vw;
     background-color: rgb(28, 28, 28);
 }
 
@@ -38,7 +35,11 @@
 }
 
 .IntegranteImg{
+    position: relative;
     background-color: black;
-    width: 20vw;
-    height: 20vw;
+    width:17.5vw;
+    height:17.5vw;
+    background-image: url("../../assets/Yo.jpeg");
+    background-position: center;
+    background-size: 100%;
 }

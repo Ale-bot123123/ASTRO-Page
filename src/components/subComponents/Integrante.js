@@ -1,4 +1,5 @@
 import '../styles/Integrante.css';
+import yo from "../../assets/Yo.jpeg"
 
 function Integrante({nombre, tareas, imgUrl}) {
 
@@ -12,7 +13,7 @@ function Integrante({nombre, tareas, imgUrl}) {
                         <li><p className='Tarea'>{tareas[1]}</p></li>
                     </ul>
                 </div>
-                <img className='IntegranteImg' alt="Integrante"></img>
+                <figure className='IntegranteImg'></figure>
             </div>
         </div>
     );
